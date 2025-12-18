@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="<https://agent-runtime-protocol.com/>"> <img src="<https://raw.githubusercontent.com/AgentRuntimeProtocol/ARP_Standard/main/images/ARP_Long_Transparent.png>" alt="ARP Logo" width="80%"></a>
+    <a href="<https://agent-runtime-protocol.com/>"> <img src="./images/ARP_Long_Transparent.png" alt="ARP Logo" width="80%"></a>
 </div>
 
 <div align="center">
@@ -8,10 +8,15 @@
 </div>
 
 <div align="center">
-    <a href="<https://opensource.org/licenses/MIT>" target="\_blank"><img src="<https://img.shields.io/pypi/l/arp-jarvis>" alt="License: MIT"></a>
-    <a href="<https://pypi.org/project/arp-standard-py/#history>" target="\_blank"><img src="<https://img.shields.io/pypi/v/arp-standard-py?label=ARP%20Standard>" alt="PyPI: ARP Standard Version"></a>
-    <a href="<https://pypi.org/project/arp-jarvis/#history>" target="\_blank"><img src="<https://img.shields.io/pypi/v/arp-jarvis?label=JARVIS>" alt="PyPI: JARVIS Version"></a>
-    <a href="<https://www.reddit.com/r/AgentRuntimeProtocol/>" target="\_blank"><img src="<https://img.shields.io/badge/reddit-r%2FAgentRuntimeProtocol-ff6314?logo=reddit>" alt="Reddit"></a>
+  <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/pypi/l/arp-standard-py" alt="ARP Python SDK License"></a>
+  <a href="https://pypi.org/project/arp-standard-py/#history" target="_blank"><img src="https://img.shields.io/pypi/v/arp-standard-py?label=arp-standard-py" alt="ARP Standard Python SDK Version"></a>
+  <a href="https://pypi.org/project/arp-standard-py/#history" target="_blank"><img src="https://img.shields.io/pypi/v/arp-jarvis?label=arp-jarvis" alt="JARVIS Version"></a>
+  <a href="https://www.reddit.com/r/AgentRuntimeProtocol/" target="_blank"><img src="https://img.shields.io/badge/reddit-r%2FAgentRuntimeProtocol-ff6314?logo=reddit" alt="Reddit"></a>
+   
+</div>
+<div align="center">
+  <a href="https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/agentruntimeprotocol/ARP_Standard" target="_blank"><img src="https://img.shields.io/static/v1?label=Dev%20Containers%20For%20ARP%20Standard&message=Open&color=blue&logo=visualstudiocode" alt="Open in Dev Containers"></a>
+  <a href="https://codespaces.new/agentruntimeprotocol/ARP_Standard" target="_blank"><img src="https://github.com/codespaces/badge.svg" alt="Open ARP Standard in Github Codespace" title="Open ARP Standard in Github Codespace" width="150" height="20"></a>
 </div>
 
 ---
@@ -22,7 +27,7 @@
 > As a new project, ARP is rapidly building out capabilities to bring our vision to life. Our core developers are aggressively adding new integrations and features. Check back often for the latest addition, and let us know what you want next on [**r/AgentRuntimeProtocol**](https://www.reddit.com/r/AgentRuntimeProtocol/) or the GitHub discussions! 
 
 > [!NOTE]
-> [*JARVIS*](https://github.com/AgentRuntimeProtocol/JARVIS_Release) is our first-party implementation of a reference stack to showcase ARP, and it will be updated as the standard evolves to fully utilize all the new and exciting features we built. Try it out! 
+> [*JARVIS*](https://github.com/AgentRuntimeProtocol/JARVIS_Release) is our first-party Python implementation of a reference stack to showcase ARP, and it will be updated as the standard evolves to fully utilize all the new and exciting features we built. Try it out! 
 
 Unlike monolithic frameworks, ARP embraces a **modular architecture** that separates the concerns of agent execution, tool provisioning, and orchestration into distinct services. This allows each part of an agent system to evolve or scale independently. 
 

@@ -138,14 +138,18 @@ ARP defines a **protocol ecosystem** of services that work in concert to orchest
     <ul>
      <li>A Control Plane would coordinate multiple daemons and tool registries across an organization, providing features like multi-tenancy, policy enforcement, security controls, and observability.</li>
     </ul>
-
-    > [!NOTE]
-    > This is the highest level component of the system, meaning that (at least for now,) it is not part of the ARP Standard, which focuses on defining APIs provided by components. A Control Plane is a *consumer* of the *daemon* API and SDK clients, but we do not expect its own APIs and functionalities to be defined via the ARP Standard.
-    > 
-    > This is by-design. The high-level capabilities required in a multi-agent, multi-environment agent system is complex and use-case specific, and standardizing it is considered complex and in many cases counter-productive by core devs of ARP.
-    > 
-    > With this being said, a first-party ARP-compliant MVP of the Control Plane is in development, both to showcase the potential of the system and to provide out-of-the-box experience for developers with common orchestration needs.
   </details>
+
+> [!Note]
+> <details>
+>   <summary>On the Control Plane</summary>
+>   This is the highest level component of the system, meaning that (at least for now,) it is not part of the ARP Standard, which focuses on defining APIs provided by components. A Control Plane is a <i>consumer</i> of the <i>daemon</i>  API and SDK clients, but we do not expect its own APIs and functionalities to be defined via the ARP Standard.
+> 
+>
+>   This is by-design. The high-level capabilities required in a multi-agent, multi-environment agent system is complex and use-case specific, and standardizing it is considered complex and in many cases counter-productive by core devs of ARP.
+> 
+>   With this being said, a first-party ARP-compliant MVP of the Control Plane is in development, both to showcase the potential of the system and to provide out-of-the-box experience for developers with common orchestration needs.
+> </details>
 
 In a typical ARP-based workflow, if a Daemon is in use,  a client (for example, a user application or script) sends a task to the Daemon. It takes care of selecting or spinning up a Runtime instance for the task, and route the task to it. The Runtime instance consults a Tool Registry to fetch available tools and executes the agent's plan, invoking tools as needed.
 

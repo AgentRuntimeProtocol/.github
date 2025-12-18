@@ -34,13 +34,17 @@
 > [!NOTE]
 > [*JARVIS*](https://github.com/AgentRuntimeProtocol/JARVIS_Release) is our first-party Python implementation of a reference stack to showcase ARP, and it will be updated as the standard evolves to fully utilize all the new and exciting features we built. Try it out! 
 
-Unlike monolithic frameworks, ARP embraces a **modular architecture** that separates the concerns of agent execution, tool provisioning, and orchestration into distinct services. This allows each part of an agent system to evolve or scale independently. 
+## Are you facing these problems?
 
-It defines clear contracts that enable any compliant agent runtime or tool service to work together seamlessly. ARP is designed from the ground up to be **vendor-neutral** and **adaptable**, so you can mix and match components from different sources knowing they all speak the same "*language*."
+- You keep rewriting your **agent API surface** whenever you switch frameworks or move from local → service.
+- Tools aren’t reusable: every stack needs its own **wrappers, schemas, auth, and discovery**.
+- Scaling from “one agent” to “a fleet” means rebuilding **routing, lifecycle, retries, and run management**.
+- You want to adopt emerging standards without betting the farm on a single ecosystem.
 
-All ARP interfaces are defined with language-agnostic specifications (*OpenAPI* + *JSON* Schema), decoupling interface from implementation. In practice, you can implement ARP components in any language or platform - as long as they follow the spec, they will be interoperable.
+ARP standardizes the seams while implementing the nuances so you can adopt incrementally and keep components swappable.
 
-## **ARP's Values**  
+## **ARP's Values**
+
 - <details>
     <summary>
       <b>Open Standard:</b> ARP is an <i>open, community-driven</i> specification - not a single library.
@@ -182,7 +186,7 @@ Today, JARVIS is self-hosted (run it on your machine or cloud instance). In the 
 
 These upcoming offerings will build on the open standard and reference stack, ensuring full compatibility between open-source and hosted environments.
 
-## Interoperability and Adapters
+## Interoperability and Adapters - Click to Expand
 
 ARP is designed to interoperate with other agent frameworks and protocols, not to exist in a silo. A core philosophy of ARP is being an **"integration/glue layer"** between different parts of the AI ecosystem.
 
@@ -276,6 +280,25 @@ curl -s http://127.0.0.1:8080/v1/runs/<run_id>/result
 
 > [!TIP]
 > ARP also provides a **Python SDK** (`arp_sdk` from package `arp-standard-py`) for programmatic access to any ARP component - you can use it to integrate ARP calls into your application code instead of making raw HTTP calls. SDKs in other languages such as TypeScript and Go are on the roadmap. Check out the [ARP Standard documentation](https://github.com/AgentRuntimeProtocol/ARP_Standard/tree/main/docs) for more on the API definitions, SDK usage, and advanced topics.
+> <details><summary>Python Example - Click to Expand</summary>Point the client at the component URL and call the API directly:
+> ```bash
+> python3 -m pip install arp-standard-py
+> ```
+> 
+> ```python
+> from arp_sdk.models import RunRequest
+> from arp_sdk.runtime import RuntimeClient
+> 
+> runtime = RuntimeClient(base_url="http://127.0.0.1:8080")
+> 
+> status = runtime.create_run(
+>     RunRequest.from_dict({"input": {"goal": "What is (19*23)?"}})
+> )
+> result = runtime.get_run_result(status.run_id)
+> 
+> print(result.to_dict())
+> ``` 
+> </details>
 
 You should see the agent's answer coming back (in this case, it will calculate 19\*23 = 437). Under the hood, the agent runtime broke down the query, invoked a calculation tool via the Tool Registry, and returned the result - all via ARP's standard APIs.
 

@@ -32,7 +32,7 @@
 > As a new project, ARP is rapidly building out capabilities to bring our vision to life. Our core developers are aggressively adding new integrations and features. Check back often for the latest addition, and let us know what you want next on [**r/AgentRuntimeProtocol**](https://www.reddit.com/r/AgentRuntimeProtocol/) or the GitHub discussions! 
 
 > [!NOTE]
-> [*JARVIS*](https://github.com/AgentRuntimeProtocol/JARVIS_Release) is our first-party Python implementation of a reference stack to showcase ARP, and it will be updated as the standard evolves to fully utilize all the new and exciting features we built. Try it out! 
+> [*JARVIS*](https://github.com/AgentRuntimeProtocol/JARVIS_Release) is our first-party Python implementation of a reference stack to showcase ARP, and it will be updated as the standard evolves to fully utilize all the new and exciting features we built. [Try it out](#getting-started)! 
 
 ## Are you facing these problems?
 
@@ -145,7 +145,6 @@ ARP defines a **protocol ecosystem** of services that work in concert to orchest
 >   <summary>On the Control Plane</summary>
 >   This is the highest level component of the system, meaning that (at least for now,) it is not part of the ARP Standard, which focuses on defining APIs provided by components. A Control Plane is a <i>consumer</i> of the <i>daemon</i>  API and SDK clients, but we do not expect its own APIs and functionalities to be defined via the ARP Standard.
 > 
->
 >   This is by-design. The high-level capabilities required in a multi-agent, multi-environment agent system is complex and use-case specific, and standardizing it is considered complex and in many cases counter-productive by core devs of ARP.
 > 
 >   With this being said, a first-party ARP-compliant MVP of the Control Plane is in development, both to showcase the potential of the system and to provide out-of-the-box experience for developers with common orchestration needs.
@@ -173,7 +172,7 @@ pip install arp-jarvis
 ```
 
 Key characteristics of *JARVIS* include: 
-- **standard-first:** All components are built directly folowing the ARP spec contracts.
+- **standard-first:** All components are built directly following the ARP spec contracts.
 - **modular:** You can run or extend each component independently. 
 - **runtime-agnostic:** The agent execution can run anywhere - local process, container, etc.
 - **tool-agnostic:** (tools can be local Python functions, HTTP APIs, or even adapters to other tool ecosystems).
@@ -190,11 +189,11 @@ Today, JARVIS is self-hosted (run it on your machine or cloud instance). In the 
 
 These upcoming offerings will build on the open standard and reference stack, ensuring full compatibility between open-source and hosted environments.
 
-## Interoperability and Adapters - Click to Expand
+## Interoperability and Adapters
 
 ARP is designed to interoperate with other agent frameworks and protocols, not to exist in a silo. A core philosophy of ARP is being an **"integration/glue layer"** between different parts of the AI ecosystem.
 
-To that end, the ARP ecosystem either provides or plans to provide adapters and bridges for various external standards, including:
+To that end, the ARP ecosystem either provides or plans to provide adapters and bridges for various external standards, including (click to expand):
 
 - <details>
     <summary>

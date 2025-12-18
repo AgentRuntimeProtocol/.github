@@ -21,7 +21,11 @@
 
 ---
 
-**Agent Runtime Protocol (ARP)** is an *open standard* for *running AI agent workflows in a consistent way* across different runtimes, tool ecosystems, model providers, and environments. It focuses on **integration** with a wide range of protocols like LangChain, MCP, A2A etc.
+> ## Imagine if agents were as portable as containers — and tools were truly reusable across stacks, no matter what framework you use. It may be closer than it sounds.
+
+---
+
+**Agent Runtime Protocol (ARP)** is an open standard for running AI agent workflows in a consistent way across different runtimes, tool ecosystems, model providers, and environments. It focuses on **integration** with a wide range of protocols like LangChain, MCP, A2A etc.
 
 > [!NOTE]
 > As a new project, ARP is rapidly building out capabilities to bring our vision to life. Our core developers are aggressively adding new integrations and features. Check back often for the latest addition, and let us know what you want next on [**r/AgentRuntimeProtocol**](https://www.reddit.com/r/AgentRuntimeProtocol/) or the GitHub discussions! 
@@ -33,7 +37,7 @@ Unlike monolithic frameworks, ARP embraces a **modular architecture** that separ
 
 It defines clear contracts that enable any compliant agent runtime or tool service to work together seamlessly. ARP is designed from the ground up to be **vendor-neutral** and **adaptable**, so you can mix and match components from different sources knowing they all speak the same "*language*."
 
-All ARP interfaces are defined with language-agnostic specifications (OpenAPI + JSON Schema), decoupling interface from implementation. In practice, you can implement ARP components in any language or platform - as long as they follow the spec, they will be interoperable.
+All ARP interfaces are defined with language-agnostic specifications (*OpenAPI* + *JSON* Schema), decoupling interface from implementation. In practice, you can implement ARP components in any language or platform - as long as they follow the spec, they will be interoperable.
 
 ## **ARP's Values**  
 - <details>

@@ -9,8 +9,7 @@
 
 <div align="center">
   <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/pypi/l/arp-standard-py" alt="ARP Python SDK License"></a>
-  <a href="https://pypi.org/project/arp-standard-py/#history" target="_blank"><img src="https://img.shields.io/pepy/dt/arp-standard-py
-  " alt="ARP Standard Python SDK Download"></a>
+  <a href="https://pypistats.org/packages/arp-standard-py" target="_blank"><img src="https://img.shields.io/pepy/dt/arp-standard-py" alt="PyPI - Downloads"></a>
   <a href="https://pypi.org/project/arp-standard-py/#history" target="_blank"><img src="https://img.shields.io/pypi/v/arp-standard-py?label=arp-standard-py" alt="ARP Standard Python SDK Version"></a>
   <a href="https://pypi.org/project/arp-standard-py/#history" target="_blank"><img src="https://img.shields.io/pypi/v/arp-jarvis?label=arp-jarvis" alt="JARVIS Version"></a>
   <a href="https://www.reddit.com/r/AgentRuntimeProtocol/" target="_blank"><img src="https://img.shields.io/badge/reddit-r%2FAgentRuntimeProtocol-ff6314?logo=reddit" alt="Reddit"></a>

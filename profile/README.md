@@ -87,6 +87,17 @@ ARP standardizes the seams while implementing the nuances so you can adopt incre
   </details>
 
 - <details>
+    <summary>
+      <b>Production-Minded:</b> Built for real-world deployments.
+    </summary>
+    <ul>
+     <li>Built by experienced devs from companies including Microsoft and Amazon, ARP is built from the ground up with production and enterprise adoption in mind.</li>
+     <li>Focuses on the essentials: clear API contracts, modular components, and reference implementations that prioritize correctness and maintainability.</li>
+     <li>Designed to be operable at scale: semantic versioning + deprecation paths, and integrations for observability (structured logs, metrics, traces) to monitor and debug agent runs.</li>
+    </ul>
+  </details>
+
+- <details>
     <summary> 
       <b>Community Driven:</b> ARP is not locked onto one company or one tech stack.
     </summary>

@@ -1,6 +1,13 @@
 <div align="center">
-    <a href="<https://agent-runtime-protocol.com/>"> <img src="./images/ARP_Long_Transparent.png" alt="ARP Logo" width="80%"></a>
+    <a href="https://agent-runtime-protocol.com/"> <img src="./images/ARP_Long_Transparent.png" alt="ARP Logo" width="80%"></a>
+    <a href="https://agent-runtime-protocol.com/" target="_blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fagent-runtime-protocol.com%2F&up_message=https%3A%2F%2Fagent-runtime-protocol.com%2F&up_color=31aab6&down_message=unavailable&labelColor=1d636a" alt="Website Link"></a>
+    <a href="https://agent-runtime-protocol.com/public_docs/" target="_blank"><img src="https://img.shields.io/website?url=https%3A%2F%2Fagent-runtime-protocol.com%2Fpublic_docs%2F&up_message=https%3A%2F%2Fagent-runtime-protocol.com%2Fpublic_docs%2F&up_color=31aab6&down_message=unavailable&label=documentation&labelColor=1d636a" alt="Docs Website Link"></a>
+    
+  <a href="https://www.reddit.com/r/AgentRuntimeProtocol/" target="_blank"><img src="https://img.shields.io/badge/reddit-r%2FAgentRuntimeProtocol-ff6314?logo=reddit" alt="Reddit"></a>
 </div>
+
+
+
 
 <div align="center">
     <h3>One protocol to unify agents, tools, and orchestration.</h3>
@@ -10,11 +17,10 @@
 <div align="center">
   <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/pypi/l/arp-standard-py" alt="ARP Python SDK License"></a>
   <a href="https://pypistats.org/packages/arp-standard-py" target="_blank"><img src="https://img.shields.io/pepy/dt/arp-standard-py" alt="PyPI - Downloads"></a>
-  <a href="https://pypi.org/project/arp-standard-py/#history" target="_blank"><img src="https://img.shields.io/pypi/v/arp-standard-py?label=arp-standard-py" alt="ARP Standard Python SDK Version"></a>
-  <a href="https://pypi.org/project/arp-standard-py/#history" target="_blank"><img src="https://img.shields.io/pypi/v/arp-jarvis?label=arp-jarvis" alt="JARVIS Version"></a>
-  <a href="https://www.reddit.com/r/AgentRuntimeProtocol/" target="_blank"><img src="https://img.shields.io/badge/reddit-r%2FAgentRuntimeProtocol-ff6314?logo=reddit" alt="Reddit"></a>
-   
+  <a href="https://pypi.org/project/arp-standard-py/#history" target="_blank"><img src="https://img.shields.io/pypi/v/arp-standard-py?label=arp-standard-py&labelColor=1d636a" alt="ARP Standard Python SDK Version"></a>
+  <a href="https://pypi.org/project/arp-standard-py/#history" target="_blank"><img src="https://img.shields.io/pypi/v/arp-jarvis?label=arp-jarvis&labelColor=1d636a" alt="JARVIS Version"></a>
 </div>
+
 <div align="center">
   <a href="https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/agentruntimeprotocol/ARP_Standard" target="_blank"><img src="https://img.shields.io/static/v1?label=Dev%20Containers%20For%20ARP%20Standard&message=Open&color=blue&logo=visualstudiocode" alt="Open in Dev Containers"></a>
   <a href="https://codespaces.new/agentruntimeprotocol/ARP_Standard" target="_blank"><img src="https://github.com/codespaces/badge.svg" alt="Open ARP Standard in Github Codespace" title="Open ARP Standard in Github Codespace" width="150" height="20"></a>

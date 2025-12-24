@@ -15,10 +15,10 @@
 </div>
 
 <div align="center">
-  <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/pypi/l/arp-standard-py" alt="ARP Python SDK License"></a>
-  <a href="https://pypistats.org/packages/arp-standard-py" target="_blank"><img src="https://img.shields.io/pepy/dt/arp-standard-py" alt="PyPI - Downloads"></a>
-  <a href="https://pypi.org/project/arp-standard-py/#history" target="_blank"><img src="https://img.shields.io/pypi/v/arp-standard-py?label=arp-standard-py&labelColor=1d636a" alt="ARP Standard Python SDK Version"></a>
-  <a href="https://pypi.org/project/arp-standard-py/#history" target="_blank"><img src="https://img.shields.io/pypi/v/arp-jarvis?label=arp-jarvis&labelColor=1d636a" alt="JARVIS Version"></a>
+  <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/pypi/l/arp-standard-model" alt="ARP Python Data Model License"></a>
+  <a href="https://pypistats.org/packages/arp-standard-model" target="_blank"><img src="https://img.shields.io/pepy/dt/arp-standard-model" alt="PyPI - Downloads"></a>
+  <a href="https://pypi.org/project/arp-standard-model/#history" target="_blank"><img src="https://img.shields.io/pypi/v/arp-standard-model?label=arp-standard-model&labelColor=1d636a" alt="ARP Standard Python Data Model Version"></a>
+  <a href="https://pypi.org/project/arp-jarvis/#history" target="_blank"><img src="https://img.shields.io/pypi/v/arp-jarvis?label=arp-jarvis&labelColor=1d636a" alt="JARVIS Version"></a>
 </div>
 
 <div align="center">

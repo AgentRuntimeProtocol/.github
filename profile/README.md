@@ -47,6 +47,8 @@ ARP ships as an ecosystem:
 - **JARVIS**: the maintained first-party OSS reference stack implementing those contracts.
 - **SDKs / templates / helper libs**: so you can build your own components and validate them.
 
+COP framing: **Capability Oriented Programming (COP)** is the engineering mindset behind ARP/JARVIS — build around capabilities you can **evaluate, publish, and reuse with evidence**. Start here: https://agent-runtime-protocol.com/public_docs/fundamentals/cop/
+
 > [!NOTE]
 > ARP is actively evolving. If you’re building on it and want a feature, tell us via GitHub Discussions or [**r/AgentRuntimeProtocol**](https://www.reddit.com/r/AgentRuntimeProtocol/).
 

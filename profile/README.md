@@ -14,7 +14,7 @@
 </div>
 
 <div align="center">
-  <h3>Capability-oriented infrastructure for reliable agentic systems.</h3>
+  <h3>Capability-oriented execution fabric for reliable agentic systems.</h3>
   <h4>Open standard + runnable reference stack for capability-centric, bounded, auditable execution.</h4>
 </div>
 
